@@ -42,12 +42,5 @@
   content: '';
   width: 16px;
   height: 16px;
-  display: block;
   margin-right: 5px;
-  /* background: url('./static/images/check.svg') center center / cover no-repeat; */
-  background: #ccc;
-}
-
-body {
-  background: #ccc;
 }
