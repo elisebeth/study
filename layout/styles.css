@@ -1,3 +1,41 @@
 * {
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #445161;
+  color: white;
+  padding: 20px 0;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.header__title {
+  font-size: 60px;
+  margin-bottom: 40px;
+}
+
+.header__list {
+  list-style-type: none;
+}
+
+.header__list-item:not(:last-of-type) {
+  margin-bottom: 10px;
+}
+
+.header__list-item::before {
+  content: '';
+  width: 16px;
+  height: 16px;
+  background-image: url();
 }
